@@ -1,0 +1,210 @@
+/* ADD YOUR STYLES HERE */
+@import 'octicons/octicons.css';
+
+/* Inline Form Styling */
+/*******************************************/
+.inline-form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 20px 10px;
+    white-space: normal;
+}
+.inline-form input {
+    height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}
+.inline-group input {
+    width: 100px;
+}
+.inline-group label:nth-child(3) {
+    margin-left: -35px;
+}
+.inline-group input:last-child {
+    margin-left: 0px;
+}
+.inline-checkbox {
+    padding: 10px;
+}
+.inline-checkbox input[type=checkbox] {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+.inline-checkbox label {
+    display: inline;
+}
+.inline-form input[type=submit] {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+/* Form Validation Styling */
+/*******************************************/
+input.is-valid {
+    border: 2px solid forestgreen;
+}
+span.is-valid {
+    color: forestgreen;
+}
+
+input.is-invalid {
+    border: 2px solid firebrick;    
+}
+span.is-invalid {
+    color: firebrick;    
+}
+
+
+/* Search Bar */
+/*******************************************/
+.search-bar {
+    background-color: lightgray;
+    border-radius: 12px;
+    padding: 1% 0%;
+    width: 100%;
+    position: relative;
+}
+.search-col-left {
+    position: absolute;
+    left: 1%;
+    top: 30%;
+    width: 12%;
+    margin-left: 2%;
+}
+.search-col-center {
+    width: 65%;
+    margin-left: 17%;
+}
+.search-button-right {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    width: 11%;
+    margin-left: 10%;
+    border: none;
+    background-color: #eb6060;
+    border-radius: 5px;
+    color: white;
+    font-size: smaller;
+    padding: 5px;
+}
+
+
+/* Omnibox */
+/*******************************************/
+.omnibox {
+    position: relative;
+}
+.omnibox input {
+    height: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 270px;
+}
+.omnibox ul {
+    position: absolute;
+    top: 8px;
+    left: -30px;
+}
+.omnibox ul li {
+    background-color: #854cbe;
+    list-style: none;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: smaller;
+    color: white;
+}
+.omnibox ul li a {
+    background-color: rebeccapurple;
+    padding: 2px 4px;
+    margin-right: 6px;
+    text-decoration: none;
+    color: lightgray;
+    border-radius: 3px;
+}
+
+
+/* Chunky List */
+/*******************************************/
+.chunky-list {
+    width: 70%;
+}
+.chunky-list ul {
+    padding: 0px;
+    list-style: none;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.octicon-repo:before {
+    position: relative;
+    top: 17px;
+    left: 15px;
+}
+.chunky-list li {
+    border-bottom: 1px solid gray;
+	width: 100%;
+}
+.chunky-list li a {
+    text-decoration: none;
+    color: gray;
+}
+.chunky-list-header {
+    border: 1px solid gray;
+    background-color: #e0dcdc;
+    font-size: smaller;
+	margin: 0;
+	padding: 8px;
+}
+.chunky-list-title {
+    color: blue;
+    font-weight: bold;
+}
+.chunky-list-stars {
+    float: right;
+    font-size: smaller;
+    margin-right: 10px;
+}
+.chunky-list-stars:after {
+    content: ' \2605';  /* Inserts star character */
+}
+.chunky-list-content-item {
+	margin-left: 40px;
+}
+.chunky-list-content-item p {
+	font-size: smaller;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Chunky Table */
+/*******************************************/
+.chunky-list tbody {
+    padding: 0px;
+    list-style: none;
+	border-bottom: 1px solid gray;
+}
+.chunky-list td {
+	width: 100%;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-left: 1px;
+}
+table .chunky-list-header {
+	margin-right: -6px;
+	margin-bottom: -1px;
+}
